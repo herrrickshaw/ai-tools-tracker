@@ -1,0 +1,1657 @@
+{
+  "hyperedges": [],
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "nodes": [
+    {
+      "id": "readme",
+      "label": "README.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_ai_tools_tracker",
+      "label": "AI Tools Tracker 🤖",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_quick_comparison",
+      "label": "📊 Quick Comparison",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_tools_by_category",
+      "label": "🏆 Tools by Category",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_1_prompt_compression_20_95x",
+      "label": "1. Prompt Compression (20-95x)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_2_token_budgeting_tracking",
+      "label": "2. Token Budgeting & Tracking",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_3_retrieval_context_optimization_40_50",
+      "label": "3. Retrieval & Context Optimization (40-50%)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_4_caching_batching_50_90",
+      "label": "4. Caching & Batching (50-90%)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_5_model_routing_50_85",
+      "label": "5. Model Routing (50-85%)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_6_kv_cache_inference_optimization",
+      "label": "6. KV Cache & Inference Optimization",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_7_observability_cost_tracking",
+      "label": "7. Observability & Cost Tracking",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L69",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_market_landscape_2026",
+      "label": "📈 Market Landscape (2026)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L79",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_four_lanes_of_innovation",
+      "label": "Four Lanes of Innovation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L81",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_economics_2026",
+      "label": "Economics (2026)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L108",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_choosing_your_stack",
+      "label": "🎯 Choosing Your Stack",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L121",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_use_case_cost_conscious_solo_dev",
+      "label": "Use Case: Cost-Conscious Solo Dev",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L123",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_use_case_multi_model_enterprise",
+      "label": "Use Case: Multi-Model Enterprise",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L127",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_use_case_multi_repo_research",
+      "label": "Use Case: Multi-Repo Research",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L131",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_use_case_production_rag_system",
+      "label": "Use Case: Production RAG System",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_guides",
+      "label": "📚 Guides",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L141",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_updates",
+      "label": "🔄 Updates",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L151",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_contributing",
+      "label": "💬 Contributing",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L165",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_license",
+      "label": "📄 License",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L174",
+      "_origin": "ast"
+    },
+    {
+      "id": "readme_acknowledgments",
+      "label": "🙏 Acknowledgments",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "README.md",
+      "source_location": "L180",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis",
+      "label": "COMPETITIVE_ANALYSIS.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "label": "Competitive Analysis: AI Token Optimization Tools (2026)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_performance_matrix",
+      "label": "Performance Matrix",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_category_winners",
+      "label": "Category Winners",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_compression",
+      "label": "Compression",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L24",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_caching_native",
+      "label": "Caching (Native)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_model_routing",
+      "label": "Model Routing",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L34",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_multi_repo_awareness",
+      "label": "Multi-Repo Awareness",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L39",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_ease_of_use",
+      "label": "Ease of Use",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L44",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_strengths_weaknesses",
+      "label": "Strengths & Weaknesses",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L51",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_token_optimizer",
+      "label": "Token Optimizer",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L53",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_llmlingua_2",
+      "label": "LLMLingua-2",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L75",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_routellm",
+      "label": "RouteLLM",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L95",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_anthropic_prompt_caching",
+      "label": "Anthropic Prompt Caching",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L115",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_feature_gap_analysis",
+      "label": "Feature Gap Analysis",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L135",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_ranked_by_impact_effort",
+      "label": "Ranked by (Impact / Effort)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L137",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_market_reality_check",
+      "label": "Market Reality Check",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L149",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_can_you_compete",
+      "label": "Can You Compete?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L151",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_your_niche_what_you_can_win_on",
+      "label": "Your Niche (What You CAN Win On)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L164",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_the_gap_no_one_else_fills",
+      "label": "The Gap No One Else Fills",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L166",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_sustainability_assessment",
+      "label": "Sustainability Assessment",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L183",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_timeline_by_strategy",
+      "label": "Timeline by Strategy",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L185",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_recommendation",
+      "label": "Recommendation",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L213",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_competitive_analysis_honest_take",
+      "label": "Honest Take",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L230",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started",
+      "label": "GETTING_STARTED.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "label": "Getting Started with AI Token Optimization",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L1",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_quick_self_assessment",
+      "label": "Quick Self-Assessment",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L7",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_1_what_s_your_primary_constraint",
+      "label": "1. What's your primary constraint?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L11",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_2_how_many_llm_vendors_do_you_use",
+      "label": "2. How many LLM vendors do you use?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L17",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_3_what_s_your_deployment_model",
+      "label": "3. What's your deployment model?",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L22",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_recommended_stacks",
+      "label": "Recommended Stacks",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L29",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_stack_1_solo_dev_best_starting_point",
+      "label": "Stack 1: Solo Dev (Best Starting Point)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L31",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_stack_2_cost_conscious_dev",
+      "label": "Stack 2: Cost-Conscious Dev",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L56",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_stack_3_multi_repo_research",
+      "label": "Stack 3: Multi-Repo Research",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L82",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_stack_4_enterprise_saas",
+      "label": "Stack 4: Enterprise/SaaS",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L107",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_step_by_step_start_with_stack_1_solo_dev",
+      "label": "Step-by-Step: Start with Stack 1 (Solo Dev)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L122",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_step_1_verify_you_re_using_claude_5_min",
+      "label": "Step 1: Verify You're Using Claude (5 min)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L124",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_step_2_enable_prompt_caching_5_min",
+      "label": "Step 2: Enable Prompt Caching (5 min)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L134",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_step_3_add_budget_tracking_10_min",
+      "label": "Step 3: Add Budget Tracking (10 min)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L161",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_step_4_optional_add_file_conversion_15_min",
+      "label": "Step 4: Optional: Add File Conversion (15 min)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L182",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_validating_your_setup",
+      "label": "Validating Your Setup",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L194",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_test_1_caching_is_working",
+      "label": "Test 1: Caching is Working",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L196",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_test_2_budget_tracking_is_working",
+      "label": "Test 2: Budget Tracking is Working",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L221",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_common_issues",
+      "label": "Common Issues",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L245",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_issue_cache_not_working",
+      "label": "Issue: \"Cache not working\"",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L247",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_issue_budget_tracker_not_showing_savings",
+      "label": "Issue: \"Budget tracker not showing savings\"",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L252",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_issue_file_conversion_is_slow",
+      "label": "Issue: \"File conversion is slow\"",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L257",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_next_steps_week_2",
+      "label": "Next Steps (Week 2+)",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L264",
+      "_origin": "ast"
+    },
+    {
+      "id": "docs_getting_started_resources",
+      "label": "Resources",
+      "file_type": "document",
+      "node_kind": "heading",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L275",
+      "_origin": "ast"
+    }
+  ],
+  "links": [
+    {
+      "source": "readme",
+      "target": "readme_ai_tools_tracker",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_quick_comparison",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_tools_by_category",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_tools_by_category",
+      "target": "readme_1_prompt_compression_20_95x",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_compression_llmlingua2_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_compression_llmlingua_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_compression_token_optimizer_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_tools_by_category",
+      "target": "readme_2_token_budgeting_tracking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_budgeting_tokencap_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_budgeting_contextops_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_budgeting_token_optimizer_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_tools_by_category",
+      "target": "readme_3_retrieval_context_optimization_40_50",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_retrieval_provence_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_retrieval_slimrag_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_retrieval_token_optimizer_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_tools_by_category",
+      "target": "readme_4_caching_batching_50_90",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_caching_prompt_caching_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_caching_semantic_caching_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_caching_batch_processing_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_tools_by_category",
+      "target": "readme_5_model_routing_50_85",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_routing_routellm_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L58",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_routing_litellm_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_routing_openrouter_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_routing_portkey_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_tools_by_category",
+      "target": "readme_6_kv_cache_inference_optimization",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_inference_sliminfer_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_inference_contextual_pruning_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_tools_by_category",
+      "target": "readme_7_observability_cost_tracking",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_observability_langfuse_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L72",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_observability_braintrust_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_observability_bifrost_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L74",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_tools_observability_datadog_llm_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_market_landscape_2026",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_market_landscape_2026",
+      "target": "readme_four_lanes_of_innovation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L81",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_market_landscape_2026",
+      "target": "readme_economics_2026",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L108",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_choosing_your_stack",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_choosing_your_stack",
+      "target": "readme_use_case_cost_conscious_solo_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_choosing_your_stack",
+      "target": "readme_use_case_multi_model_enterprise",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L127",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_choosing_your_stack",
+      "target": "readme_use_case_multi_repo_research",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L131",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_choosing_your_stack",
+      "target": "readme_use_case_production_rag_system",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_guides",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L141",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "docs_getting_started",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L143",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_docs_benchmarks_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L144",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_docs_integration_patterns_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L145",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_docs_vendor_comparison_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L146",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_docs_cost_calculator_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L147",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_updates",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_contributing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L165",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme",
+      "target": "users_umashankar_ai_tools_tracker_contributing_md",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L167",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L174",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "readme_ai_tools_tracker",
+      "target": "readme_acknowledgments",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L180",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis",
+      "target": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_performance_matrix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_category_winners",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_category_winners",
+      "target": "docs_competitive_analysis_compression",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_category_winners",
+      "target": "docs_competitive_analysis_caching_native",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_category_winners",
+      "target": "docs_competitive_analysis_model_routing",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L34",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_category_winners",
+      "target": "docs_competitive_analysis_multi_repo_awareness",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_category_winners",
+      "target": "docs_competitive_analysis_ease_of_use",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_strengths_weaknesses",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_strengths_weaknesses",
+      "target": "docs_competitive_analysis_token_optimizer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_strengths_weaknesses",
+      "target": "docs_competitive_analysis_llmlingua_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L75",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_strengths_weaknesses",
+      "target": "docs_competitive_analysis_routellm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L95",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_strengths_weaknesses",
+      "target": "docs_competitive_analysis_anthropic_prompt_caching",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L115",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_feature_gap_analysis",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L135",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_feature_gap_analysis",
+      "target": "docs_competitive_analysis_ranked_by_impact_effort",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L137",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_market_reality_check",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L149",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_market_reality_check",
+      "target": "docs_competitive_analysis_can_you_compete",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L151",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_your_niche_what_you_can_win_on",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_your_niche_what_you_can_win_on",
+      "target": "docs_competitive_analysis_the_gap_no_one_else_fills",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L166",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_sustainability_assessment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L183",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_sustainability_assessment",
+      "target": "docs_competitive_analysis_timeline_by_strategy",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L185",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_recommendation",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L213",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_competitive_analysis_competitive_analysis_ai_token_optimization_tools_2026",
+      "target": "docs_competitive_analysis_honest_take",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/COMPETITIVE_ANALYSIS.md",
+      "source_location": "L230",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started",
+      "target": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "target": "docs_getting_started_quick_self_assessment",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_quick_self_assessment",
+      "target": "docs_getting_started_1_what_s_your_primary_constraint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_quick_self_assessment",
+      "target": "docs_getting_started_2_how_many_llm_vendors_do_you_use",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_quick_self_assessment",
+      "target": "docs_getting_started_3_what_s_your_deployment_model",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "target": "docs_getting_started_recommended_stacks",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_recommended_stacks",
+      "target": "docs_getting_started_stack_1_solo_dev_best_starting_point",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_recommended_stacks",
+      "target": "docs_getting_started_stack_2_cost_conscious_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_recommended_stacks",
+      "target": "docs_getting_started_stack_3_multi_repo_research",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_recommended_stacks",
+      "target": "docs_getting_started_stack_4_enterprise_saas",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L107",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "target": "docs_getting_started_step_by_step_start_with_stack_1_solo_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L122",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_step_by_step_start_with_stack_1_solo_dev",
+      "target": "docs_getting_started_step_1_verify_you_re_using_claude_5_min",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_step_by_step_start_with_stack_1_solo_dev",
+      "target": "docs_getting_started_step_2_enable_prompt_caching_5_min",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_step_by_step_start_with_stack_1_solo_dev",
+      "target": "docs_getting_started_step_3_add_budget_tracking_10_min",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L161",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_step_by_step_start_with_stack_1_solo_dev",
+      "target": "docs_getting_started_step_4_optional_add_file_conversion_15_min",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "target": "docs_getting_started_validating_your_setup",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L194",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_validating_your_setup",
+      "target": "docs_getting_started_test_1_caching_is_working",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L196",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_validating_your_setup",
+      "target": "docs_getting_started_test_2_budget_tracking_is_working",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L221",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "target": "docs_getting_started_common_issues",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L245",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_common_issues",
+      "target": "docs_getting_started_issue_cache_not_working",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L247",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_common_issues",
+      "target": "docs_getting_started_issue_budget_tracker_not_showing_savings",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L252",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_common_issues",
+      "target": "docs_getting_started_issue_file_conversion_is_slow",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L257",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "target": "docs_getting_started_next_steps_week_2",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L264",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started_getting_started_with_ai_token_optimization",
+      "target": "docs_getting_started_resources",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L275",
+      "weight": 1.0,
+      "_origin": "ast"
+    },
+    {
+      "source": "docs_getting_started",
+      "target": "docs_competitive_analysis",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/GETTING_STARTED.md",
+      "source_location": "L279",
+      "weight": 1.0,
+      "_origin": "ast"
+    }
+  ],
+  "directed": false
+}

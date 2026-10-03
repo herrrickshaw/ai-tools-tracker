@@ -1,0 +1,26 @@
+{
+  "README.md": {
+    "mtime": 1786428168.536716,
+    "seen": 1789193283.372024,
+    "ast_hash": "953fb8dddce05ef8edfc8d25047caed2",
+    "semantic_hash": ""
+  },
+  "docs/COMPETITIVE_ANALYSIS.md": {
+    "mtime": 1786428199.0236175,
+    "seen": 1789193283.372027,
+    "ast_hash": "c97c7a348852ee65f4a73c5aba41b7f1",
+    "semantic_hash": ""
+  },
+  "docs/GETTING_STARTED.md": {
+    "mtime": 1786428226.3167546,
+    "seen": 1789193283.3720288,
+    "ast_hash": "5685309b05d17a7be64000b65c4c7315",
+    "semantic_hash": ""
+  },
+  ".github/workflows/quality-gates.yml": {
+    "mtime": 1789577592.6841204,
+    "seen": 1789968626.739168,
+    "ast_hash": "510f7e392c07f0574ba8a559ba2cdf12",
+    "semantic_hash": ""
+  }
+}
