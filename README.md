@@ -1,5 +1,9 @@
 # AI Tools Tracker 🤖
 
+<!-- how-to-use-with-ai -->
+> **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md) — clone it, paste it into an AI tool, and ask in plain English.
+
+
 Comprehensive tracker and comparison of AI tools for **token optimization**, **cost reduction**, and **LLM efficiency** (2026).
 
 > **Focus**: Production-ready tools that demonstrably reduce token consumption, latency, or cost. Not academic papers or vaporware.
