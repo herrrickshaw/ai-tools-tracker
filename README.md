@@ -1,192 +1,125 @@
-# AI Tools Tracker 🤖
+# AI tools tracker — token optimisation and LLM cost reduction (2026)
 
-<!-- how-to-use-with-ai -->
-> **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md) — clone it, paste it into an AI tool, and ask in plain English.
+A documentation-only comparison of tools that reduce LLM token consumption, latency or cost:
+prompt compression, model routing, native and semantic caching, KV-cache pruning, budgeting and
+observability. It is written for developers choosing a cost-reduction stack and produces no code
+or data — the output is the three Markdown documents in this repository.
 
+> Status: archived snapshot (last content update 2026-08-11). Figures are taken from vendor
+> documentation and published benchmarks as of that date; tools change quickly, so verify any
+> number against the current source before relying on it. Not a benchmark we ran ourselves.
 
-Comprehensive tracker and comparison of AI tools for **token optimization**, **cost reduction**, and **LLM efficiency** (2026).
+> **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md).
 
-> **Focus**: Production-ready tools that demonstrably reduce token consumption, latency, or cost. Not academic papers or vaporware.
+## What it does
+- Summarises 20+ tools across seven categories: compression, budgeting, retrieval/context pruning,
+  caching and batching, model routing, KV-cache / inference optimisation, observability.
+- Gives a one-table quick comparison (savings claim, setup time, maturity) for the headline tools.
+- Sketches the 2026 market landscape as four "lanes" (gateways, routers, observability/caching,
+  endpoint optimisers) with representative products per lane.
+- Recommends a starting stack for four use cases (solo dev, multi-model enterprise, multi-repo
+  research, production RAG) in `docs/GETTING_STARTED.md`.
+- Compares the author's own "Token Optimizer" workflow against LLMLingua-2, RouteLLM, prompt
+  caching, semantic caching and Provence in `docs/COMPETITIVE_ANALYSIS.md`.
 
----
+## Quick start
+There is nothing to install or run. Read in this order:
 
-## 📊 Quick Comparison
+1. The comparison tables below.
+2. [`docs/GETTING_STARTED.md`](docs/GETTING_STARTED.md) — pick a first tool in five minutes.
+3. [`docs/COMPETITIVE_ANALYSIS.md`](docs/COMPETITIVE_ANALYSIS.md) — performance matrix, feature gaps, sustainability take.
 
-| Tool | Category | Savings | Setup | Maturity |
-|------|----------|---------|-------|----------|
-| **Anthropic Prompt Caching** | Native Caching | 90% (cached inputs) | 0 min | ✅ Production |
-| **LLMLingua-2** | Compression | 80-95% | 5 min | ✅ Production |
-| **RouteLLM** | Model Routing | 50-85% | 30 min | ✅ Production |
-| **Semantic Caching** (Bifrost, GPTCache) | Query Caching | 20-45% (hits) | 2-4 hours | ✅ Production |
-| **SlimInfer** | KV Cache Pruning | 66x memory reduction | 10 min | 🔬 Research |
-| **Token Optimizer** (our system) | Multi-Repo + Budget | 55-75% | 15 min | ✅ Personal use |
-
----
-
-## 🏆 Tools by Category
-
-### 1. Prompt Compression (20-95x)
-Reduce context size while preserving meaning.
-
-- **[LLMLingua-2](tools/compression/llmlingua2.md)** — Question-aware compression; 80-95% reduction
-- **[LLMLingua](tools/compression/llmlingua.md)** — Original (slower); 20x compression
-- **[Token Optimizer - Markitdown](tools/compression/token-optimizer.md)** — File format conversion; 40-60%
-
-### 2. Token Budgeting & Tracking
-Monitor and enforce token spend limits.
-
-- **[Tokencap](tools/budgeting/tokencap.md)** — Hard budget enforcement at SDK level
-- **[ContextOps](tools/budgeting/contextops.md)** — Pre-call optimization + PII scanning
-- **[Token Optimizer - Budget Tracker](tools/budgeting/token-optimizer.md)** — Per-session + per-repo tracking
-
-### 3. Retrieval & Context Optimization (40-50%)
-Reduce context needed per query.
-
-- **[Provence](tools/retrieval/provence.md)** — Evidence-aware context pruning for RAG
-- **[SlimRAG](tools/retrieval/slimrag.md)** — Entity-aware context selection
-- **[Token Optimizer - Graphify Integration](tools/retrieval/token-optimizer.md)** — Knowledge-graph ranking
-
-### 4. Caching & Batching (50-90%)
-Avoid redundant API calls.
-
-- **[Anthropic Prompt Caching](tools/caching/prompt-caching.md)** — Native API caching; 90% reduction
-- **[Semantic Caching](tools/caching/semantic-caching.md)** — Query deduplication; 20-45% hits
-  - Bifrost
-  - GPTCache
-  - Redis Stack
-- **[Batch Processing](tools/caching/batch-processing.md)** — Async batch API; 50% cost reduction
-
-### 5. Model Routing (50-85%)
-Select cheapest model for task.
-
-- **[RouteLLM](tools/routing/routellm.md)** — Semantic-aware LLM-based routing; 85% savings
-- **[LiteLLM](tools/routing/litellm.md)** — Open-source gateway; multi-model support
-- **[OpenRouter](tools/routing/openrouter.md)** — Unified API + routing
-- **[Portkey](tools/routing/portkey.md)** — Enterprise gateway + observability
-
-### 6. KV Cache & Inference Optimization
-Reduce memory and latency.
-
-- **[SlimInfer](tools/inference/sliminfer.md)** — Dynamic token pruning; 66x KV cache reduction
-- **[Contextual Pruning](tools/inference/contextual-pruning.md)** — MIT-based architecture pruning
-
-### 7. Observability & Cost Tracking
-Monitor spending across all tools.
-
-- **[Langfuse](tools/observability/langfuse.md)** — Open-source; request logs + budget gates
-- **[Braintrust](tools/observability/braintrust.md)** — Multi-library tracking + experiments
-- **[Bifrost](tools/observability/bifrost.md)** — 4-tier spend hierarchy; 11µs overhead
-- **[Datadog LLM](tools/observability/datadog-llm.md)** — Enterprise auto-instrumentation
-
----
-
-## 📈 Market Landscape (2026)
-
-### Four Lanes of Innovation
-
-```
-Lane 1: AI Gateways
-├─ Portkey
-├─ LiteLLM
-├─ Helicone
-└─ Kong
-
-Lane 2: Intelligent Routers
-├─ RouteLLM (LMSYS)
-├─ OpenRouter
-├─ Not Diamond
-└─ Your custom router
-
-Lane 3: Observability & Caching
-├─ Langfuse
-├─ Bifrost
-├─ GPTCache
-└─ Redis Stack
-
-Lane 4: Endpoint Optimizers
-├─ SlimInfer
-├─ Contextual Pruning
-└─ Token Optimizer (multi-repo focus)
+```bash
+git clone https://github.com/herrrickshaw/ai-tools-tracker.git
+cd ai-tools-tracker
 ```
 
-### Economics (2026)
+## Quick comparison
 
-| Strategy | Typical Savings | Implementation Cost | ROI |
-|----------|-----------------|----------------------|-----|
-| Prompt caching (native) | 90% (cached) | $0 | ⭐⭐⭐⭐⭐ |
-| Semantic caching | 20-45% (hits) | $500-2k | ⭐⭐⭐⭐ |
-| Model routing | 50-85% | $1-5k | ⭐⭐⭐⭐ |
-| Compression | 20-95% | $0-1k | ⭐⭐⭐⭐ |
-| KV cache pruning | 50-66x memory | $0-500 | ⭐⭐⭐ |
-| Combined (all layers) | **55-93%** | **$2-10k** | ⭐⭐⭐⭐⭐ |
+| Tool | Category | Claimed savings | Setup | Maturity |
+|------|----------|-----------------|-------|----------|
+| Anthropic Prompt Caching | Native caching | 90% on cached inputs | 0 min | Production |
+| LLMLingua-2 | Compression | 80–95% | 5 min | Production |
+| RouteLLM | Model routing | 50–85% | 30 min | Production |
+| Semantic caching (Bifrost, GPTCache) | Query caching | 20–45% on hits | 2–4 h | Production |
+| SlimInfer | KV-cache pruning | 66x memory reduction | 10 min | Research |
+| Token Optimizer (author's own) | Multi-repo + budget | 55–75% | 15 min | Personal use |
 
----
+## Tools by category
 
-## 🎯 Choosing Your Stack
+| Category | Tools covered |
+|---|---|
+| 1. Prompt compression (20–95x) | LLMLingua-2 (question-aware, 80–95%), LLMLingua (original, 20x), Token Optimizer markitdown conversion (40–60%) |
+| 2. Token budgeting and tracking | Tokencap (SDK-level hard budget), ContextOps (pre-call optimisation + PII scan), Token Optimizer budget tracker |
+| 3. Retrieval and context optimisation (40–50%) | Provence (evidence-aware pruning for RAG), SlimRAG (entity-aware selection), Token Optimizer graphify ranking |
+| 4. Caching and batching (50–90%) | Anthropic prompt caching (90%), semantic caching — Bifrost, GPTCache, Redis Stack (20–45% hits), batch APIs (50% cost) |
+| 5. Model routing (50–85%) | RouteLLM (LMSYS, 85%), LiteLLM, OpenRouter, Portkey |
+| 6. KV cache and inference | SlimInfer (dynamic token pruning, 66x), contextual pruning (MIT) |
+| 7. Observability and cost tracking | Langfuse, Braintrust, Bifrost (4-tier spend hierarchy, 11 µs overhead), Datadog LLM |
 
-### Use Case: Cost-Conscious Solo Dev
-**Recommendation**: Anthropic Caching + Semantic Caching + Budget Tracker  
-**Savings**: 60-75% | **Setup**: 2 hours | **Cost**: $0
+The earlier README linked a `tools/<category>/<tool>.md` page per tool. Those pages were never
+committed; the per-tool detail lives in the two `docs/` files instead.
 
-### Use Case: Multi-Model Enterprise
-**Recommendation**: RouteLLM + Langfuse + Semantic Caching  
-**Savings**: 65-85% | **Setup**: 1-2 days | **Cost**: $5-15k/year
+## Market landscape (2026)
 
-### Use Case: Multi-Repo Research
-**Recommendation**: Token Optimizer + LLMLingua-2 + Semantic Caching  
-**Savings**: 70-82% | **Setup**: 1 day | **Cost**: $0-500
+```
+Lane 1: AI gateways          Portkey · LiteLLM · Helicone · Kong
+Lane 2: Intelligent routers  RouteLLM (LMSYS) · OpenRouter · Not Diamond · custom routers
+Lane 3: Observability/cache  Langfuse · Bifrost · GPTCache · Redis Stack
+Lane 4: Endpoint optimisers  SlimInfer · Contextual Pruning · Token Optimizer (multi-repo)
+```
 
-### Use Case: Production RAG System
-**Recommendation**: Provence + Semantic Caching + Model Routing  
-**Savings**: 60-75% | **Setup**: 2-3 days | **Cost**: $2-5k/year
+| Strategy | Typical savings | Implementation cost |
+|----------|-----------------|---------------------|
+| Prompt caching (native) | 90% (cached) | $0 |
+| Semantic caching | 20–45% (hits) | $500–2k |
+| Model routing | 50–85% | $1–5k |
+| Compression | 20–95% | $0–1k |
+| KV-cache pruning | 50–66x memory | $0–500 |
+| Combined (all layers) | 55–93% | $2–10k |
 
----
+## Choosing a stack
 
-## 📚 Guides
+| Use case | Recommended combination | Claimed savings | Setup | Cost |
+|---|---|---|---|---|
+| Cost-conscious solo dev | Anthropic caching + semantic caching + budget tracker | 60–75% | 2 h | $0 |
+| Multi-model enterprise | RouteLLM + Langfuse + semantic caching | 65–85% | 1–2 days | $5–15k/yr |
+| Multi-repo research | Token Optimizer + LLMLingua-2 + semantic caching | 70–82% | 1 day | $0–500 |
+| Production RAG | Provence + semantic caching + model routing | 60–75% | 2–3 days | $2–5k/yr |
 
-- **[Getting Started](docs/GETTING_STARTED.md)** — Choose your first tool
-- **[Benchmark Methodology](docs/BENCHMARKS.md)** — How we measure savings
-- **[Integration Patterns](docs/INTEGRATION_PATTERNS.md)** — Layering tools together
-- **[Vendor Comparison](docs/VENDOR_COMPARISON.md)** — Licensed vs Open-Source
-- **[Cost Calculator](docs/COST_CALCULATOR.md)** — Estimate savings for your use case
+## Repository layout
+| Path | Purpose |
+|---|---|
+| `README.md` | This overview and the comparison tables |
+| `docs/GETTING_STARTED.md` | Self-assessment, four recommended stacks, step-by-step for the solo-dev stack, validation snippets |
+| `docs/COMPETITIVE_ANALYSIS.md` | Performance matrix, category winners, strengths/weaknesses, feature-gap and sustainability analysis |
+| `HOW_TO_USE_WITH_AI.md` | How a non-programmer can hand this repo to an AI assistant |
+| `CLAUDE.md` | Guidance for Claude Code sessions (source-fetching rules) |
+| `graphify-out/` | Generated knowledge-graph cache of the Markdown files; not hand-edited |
+| `.github/workflows/quality-gates.yml` | gitleaks secret scan on push / PR |
 
----
+## Data sources
+Figures are compiled, not measured here, from:
 
-## 🔄 Updates
+| Source | What is taken |
+|---|---|
+| Published benchmarks (AAAI 2026, NeurIPS 2025) | SlimInfer and compression results |
+| Vendor documentation (Anthropic, OpenAI, Together AI) | Caching, batch-API and pricing claims |
+| Open-source project pages (LLMLingua, vLLM, LiteLLM, RouteLLM) | Setup effort, feature lists |
+| Author's own Token Optimizer usage | The 55–75% "personal use" figure — self-reported, not externally validated |
 
-**Last updated**: 2026-08-11  
-**Tools tracked**: 20+  
-**Coverage**: Production-only (no research-stage tools)
+## Limitations and known issues
+- Snapshot dated 2026-08-11; nothing has been re-verified since.
+- All savings percentages are vendor or paper claims under their own workloads, not a common benchmark.
+- The "Token Optimizer" rows describe the author's private workflow (scripts under `~/.claude/scripts/`
+  in another repository); they are not installable from this repo.
+- `docs/GETTING_STARTED.md` references `claude-3-5-sonnet-20241022`, which is an older model ID.
+- The earlier README promised `docs/BENCHMARKS.md`, `docs/INTEGRATION_PATTERNS.md`,
+  `docs/VENDOR_COMPARISON.md`, `docs/COST_CALCULATOR.md` and `CONTRIBUTING.md`; none exist.
 
-**What's new in 2026**:
-- ✅ Prompt caching matured (Anthropic native, 90% cached)
-- ✅ Semantic caching production-ready (Bifrost, 20-45% hits)
-- ✅ Model routing sophisticated (RouteLLM, 85% savings)
-- ✅ KV cache pruning validated (SlimInfer, AAAI 2026)
+## Related repositories
+- [`global-market-research-platform`](https://github.com/herrrickshaw/global-market-research-platform/tree/token-optimizer) — the `token-optimizer` branch that the "Token Optimizer" entries refer to.
 
----
-
-## 💬 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for:
-- Adding new tools
-- Submitting benchmarks
-- Reporting inaccuracies
-
----
-
-## 📄 License
-
-MIT — Open for research, learning, and production use.
-
----
-
-## 🙏 Acknowledgments
-
-Research compiled from:
-- Published benchmarks (AAAI 2026, NeurIPS 2025)
-- Production deployments (37% of enterprises use 5+ models)
-- Open-source communities (LLMLingua, vLLM, LiteLLM)
-- Vendor documentation (Anthropic, OpenAI, Together AI)
-
-**Disclaimer**: This tracker reflects 2026 state of art. Comparisons are snapshot-based; tools evolve rapidly. Verify benchmarks for your specific use case before production deployment.
+## Licence
+The previous README declared MIT, but no `LICENSE` file is committed, so the licence is not yet
+binding. Adding a `LICENSE` file is the intended next step.
